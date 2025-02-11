@@ -1,1 +1,75 @@
+@import url(./reset.css);
+
+header{
+
+    &{
+background-color: #222;
+color: #fff;
+line-height: 8rem;
+text-align: center;
+    }
+}
+
+.form-primary{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100rem;
+    border: solid .1rem transparent;
+    transform: translate(-50%);
+    z-index: 1;
+    
+}
+fieldset{
+    padding: 1rem;
+    border: 0.1rem solid#ccc;
+    border-radius: .4rem;
+    background-color: #fff;
+
+    legend{
+        font-size: large;
+        padding: .5rem; 
+        text-transform: uppercase;
+       }
+}
+.picture{
+    max-width: 40rem;
+    margin: 2rem auto 0;
+}
+form{
+    [placeholder]{
+        box-shadow: #f8f3f3;
+    }
+    input{
+        display: block;
+        border: solid .2rem #ccc;
+        padding: .1rem;
+        width: 100%;
+        margin: 1rem 0;
+        line-height: 3rem;
+        transition: all.6s ease-in-out;
+        border-bottom-color: #ccc;
+
+    }
+    
+     input:focus{
+        box-shadow: 0 0 3rem rgba(239,78,220,.5);
+        outline: n;
+     }
+
+     input[type="submit"]{
+        background-color: rgb(41,128,185,1.0);
+        color: #fff;
+        text-transform: uppercase;
+        border: 0;
+        width: max-content; /*largeur du boutton par rapport au texte*/
+        border-radius: .4rem;
+        font-size: 1.4rem;
+        margin-bottom: 0;
+        cursor: pointer;
+        margin: auto;
+        padding: 1rem;
+    
+    }
+} 
 

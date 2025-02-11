@@ -14,15 +14,20 @@
 </header>
     <main>
         <div class="form-primary" role="region" aria-labelledby="form">
-
-            <fieldset>
+            <div class="🖼 ">
+                <img src="./asset/image ilustration.svg" alt="cover" loading="lazy">
+            </div>
+                <fieldset>
                 <legend>Remplir le formulaire</legend>
-                <form action="https://www.google.com/search?client=firefox-b-d&q=html" method="get"> <!--Post/-->
-                    <label for="nom">Votre nom</label>
+                <form action="" method=""> <!--Post/-->
+                    <label for="prénom">Votre nom</label>
                     <input type="text" 
-                    name="q" 
+                    name="nom" 
                     id="nom" 
-                    placeholder="Votre nom" required aria-required="true" autofocus>
+                    placeholder="Votre prénom" required aria-required="true" autofocus>
+                    <label for="age">Votre age</label>
+                    <input type="number" name="age" id="age" min="16" max="100"
+                    placeholder="Votre age" required aria-required="true">
 
                     <input type="submit" value="Envoyer le formulaire">
                 </form>
